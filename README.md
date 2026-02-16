@@ -22,7 +22,7 @@ The tasks included creating a new PDB, creating and deleting another PDB, access
  Oracle Database 21c Express Edition
  Docker container     
  Ubuntu Linux operating system
- SQL*Plus for database commands
+ SQL for database commands
  Oracle Enterprise Manager Express (OEM) for monitoring
 
 
@@ -60,12 +60,12 @@ Then I confirmed that the PDB no longer existed.
 **Task 3 – Oracle Enterprise Manager (OEM)**
 
 
-In this task, I accessed Oracle Enterprise Manager Express using the web browser.
-I logged in using administrator credentials.
-The dashboard showed:
-    • The Oracle environment
-    • The created PDB
-    • The created user account
+
+In this task, I tried accessing Oracle Enterprise Manager Express using the web browser(which did not work at all).
+I couldn't log in using administrator credentials due  to some issues that i met which i explalined in the challenges faced and solutions
+ section 
+ 
+ 
 
 
     
@@ -85,7 +85,7 @@ Oracle Enterprise Manager can not open in the browser.
 **Solution:**
 
 
-i still have not find the solution to this problem because port is enabled but OEM can't open
+i still have not find the solution to this problem because port is enabled but OEM can't open and according to my research, new version of Linux doesn't support Oracle 21c which made me use docker inside of it to later meet those issues of not being able to browse OEM.
 
 
 
