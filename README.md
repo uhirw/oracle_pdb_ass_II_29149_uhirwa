@@ -76,9 +76,7 @@ The dashboard showed:
 
 **OEM Not Opening**
 
-
-At first, Oracle Enterprise Manager did not open in the browser.
-This happened because the HTTPS port was not enabled.
+Oracle Enterprise Manager can not open in the browser.
 
 
 
@@ -87,7 +85,7 @@ This happened because the HTTPS port was not enabled.
 **Solution:**
 
 
-I enabled the port using SQL commands and verified the Docker port mapping.
+i still have not find the solution to this problem because port is enabled but OEM can't open
 
 
 
