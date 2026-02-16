@@ -85,7 +85,7 @@ Oracle Enterprise Manager can not open in the browser.
 **Solution:**
 
 
-i still have not find the solution to this problem because port is enabled but OEM can't open and according to my research, new version of Linux doesn't support Oracle 21c which made me use docker inside of it to later meet those issues of not being able to browse OEM.
+i still have not find a solution to this problem because port is enabled but OEM can't open and according to my research, new version of Linux doesn't support Oracle 21c which made me use docker inside of it to later meet those issues of not being able to browse OEM.
 
 
 
